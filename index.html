@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naqeeb Fitness</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+    <style>
+        body {
+            font-family: 'Baloo Bhai', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url(gym2.jpg);
+            background-repeat: no-repeat;
+            background-size: 1537px 761px;
+            background-origin: initial;
+
+
+
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 70px;
+            top: 20px;
+
+        }
+
+        .left img {
+            /* align-content:center; */
+            width: 114px;
+            height: 100px;
+            /* filter: invert(100%); */
+
+        }
+
+        .left div {
+            color: #0d0e0d;
+            text-align: center;
+            line-height: 19px;
+            font-size: 20px;
+        }
+
+        .mid {
+            display: block;
+            width: 45%;
+            margin: 50px auto;
+            /* border: 2px solid green; */
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 60px;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            font-size: 22px;
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            padding: 34px 24px;
+            text-decoration: none;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: yellow;
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 17px;
+            border: 3px solid gray;
+            border-radius: 10px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        .btns {
+            font-family: 'Baloo Bhai', cursive;
+            margin: -43px 283px;
+            color: white;
+            background-color: black;
+            padding: 8px 32px;
+            border: 3px solid gray;
+            border-radius: 54px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(247, 178, 178);
+        }
+        .btns:hover {
+            background-color: rgb(247, 178, 178);;
+        }
+
+        .container {
+            /* border: 2px solid yellow; */
+            margin: 114px 103px;
+            padding: 46px 2px;
+            width: 45%;
+            border-radius: 27px;
+
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container form button {
+            display: block;
+            margin: 24px auto;
+            width: 23%;
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhai', cursive;
+            text-align: center;
+            display: block;
+            width: 500px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+<header class="header">
+    <!-- left box for logo -->
+    <div class="left">
+        <img src="logo1.jpg" alt="">
+        <div style="color:white;">Naqeeb club</div>
+    </div>
+    <!-- mid box for navbar -->
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+        </ul>
+    </div>
+    <!-- right box for buttons -->
+    <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+    </div>
+</header>
+<div class="container">
+    <h1 style="color: rgb(237 217 217);">Join the best gym of Kudachi now</h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <button class="btn">Submit</button>
+        <input type="Reset" name="" class="btns">
+
+    </form>
+</div>
+
+
+</body>
+
+</html>
